@@ -1,0 +1,35 @@
+
+body{
+    background: #37414b;
+}
+
+p{
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+    /*text-transform: uppercase;*/
+    line-height: 40px;
+    font-style: italic;
+    font-size: 200%;
+    color: cadetblue;
+    text-align-all: right;
+}
+
+p2{
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    text-decoration: solid;
+    /*text-transform: uppercase;*/
+    line-height: 40px;
+    font-style: normal;
+    font-size: 200%;
+    color: coral;
+    text-align: center;
+}
+
+
+
+footer{
+    clear: both;
+    text-align:center
+}
