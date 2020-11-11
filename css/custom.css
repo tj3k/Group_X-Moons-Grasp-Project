@@ -1,6 +1,21 @@
 
 body{
     background: #37414b;
+    color: white;
+}
+
+.boxmodel {
+    border: 10px whitesmoke;
+}
+
+.buttonsAlpha {
+    text-align-all: center;
+    border: 3px goldenrod;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 2px 6px;
+    width: 10px;
+    height: 7px;
 }
 
 p{
@@ -26,8 +41,6 @@ p2{
     color: coral;
     text-align: center;
 }
-
-
 
 footer{
     clear: both;
