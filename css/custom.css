@@ -3,10 +3,24 @@ body{
     /*background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)),*/
     /*        url("../images/bg.png") no-repeat bottom;*/
     /*background-size: cover;*/
+    font-family: 'Sora', sans-serif;
     animation: fadein 1.5s ease-out forwards;
     background-image: url(../images/bg.png);
     background-size: 700px;
     color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
 }
 
 /*Background Animation*/
@@ -44,7 +58,7 @@ p{
     /*text-transform: uppercase;*/
     line-height: 40px;
     font-style: italic;
-    font-size: 200%;
+    font-size: 30px;
     color: cadetblue;
     text-align-all: right;
 }
@@ -55,13 +69,67 @@ p2{
     text-decoration: solid;
     /*text-transform: uppercase;*/
     line-height: 40px;
-    font-style: normal;
-    font-size: 200%;
+    font-size: 30px;
     color: coral;
     text-align: center;
+    border-bottom: 3px rgba(255, 255, 255, 0.5);
 }
+
+
+span{
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+    /*color: cadetblue;*/
+}
+
+
 
 footer{
     clear: both;
     text-align:center
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    list-style: none;
+    margin: 0;
+    background: #4b4f53;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: #61676a;
+}
+
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255,0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
 }
