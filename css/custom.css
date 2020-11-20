@@ -10,17 +10,22 @@ body{
     color: white;
 }
 
-.container{
+.logo{
     display: flex;
+    align-content: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 50px 5px 30px;
 }
 
-img{
-    width: 50%;
-    height: 50%;
+img.logo{
+    width: 35%;
+    height: auto;
+    transition: all 1.3s;
+}
+
+img.logo:hover{
+    transform: scale(1.1);
 }
 
 /*Background Animation*/
@@ -37,7 +42,7 @@ img{
     }
 }
 
-.boxmodel {
+p.border1 {
     border: 10px whitesmoke;
 }
 
@@ -73,6 +78,7 @@ p2{
     color: coral;
     text-align: center;
     border-bottom: 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 10px #000000;
 }
 
 
@@ -87,8 +93,11 @@ span{
 
 
 footer{
-    clear: both;
-    text-align:center
+    height: 50px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation {
