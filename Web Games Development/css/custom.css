@@ -11,10 +11,10 @@ main{
 }
 
 .logo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 30px 15px;
+    /* inline-block allowed the link to only be clickable in image area. */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 img.logo{
